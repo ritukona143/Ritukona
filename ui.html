@@ -1,0 +1,83 @@
+<html>
+<head>
+<script type="text/javascript" src="validate.js"></script>
+</head>
+<body>
+<form action="#" name="Registration" onsubmit="return(validate());">
+    
+    <table cellpadding="2" width="20%" bgcolor="pink" align="center"
+	cellspacing="2">
+
+	<tr>
+		<td colspan=2>
+		<center><font size=4><b>Registration Form</b></font></center>
+		</td>
+	</tr>
+
+	<tr>
+		<td>User Id</td>
+		<td><input type=text name=userid id="userid" size="30"></td>
+	</tr>
+
+	<tr>
+		<td>Password</td>
+		<td><input type="password" name="password" id="password"
+			size="30"></td>
+	</tr>
+	<tr>
+		<td>Name</td>
+		<td><input type="text" name="textname" id="textname" size="30"></td>
+	</tr>
+
+	<tr>
+		<td>Address</td>
+		<td><input type="text" name="address"
+			id="address" size="30"></td>
+	</tr>
+<tr>
+		<td>Country</td>
+		<td><select name="Country">
+			 <option value="-1" selected>select..</option>
+			<option value="INDIA">INDIA</option>
+			<option value="JAPAN">JAPAN</option>
+			<option value="CHINA">CHINA</option>
+			<option value="IRAQ">IRAQ</option>
+		</select></td>
+	</tr>
+	<tr>
+		<td>PinCode</td>
+		<td><input type="text" name="pincode" id="pincode" size="30"></td>
+
+	</tr>
+
+        <tr>
+		<td>Gender</td>
+		<td><input type="radio" name="gender" value="male" size="10">Male
+		<input type="radio" name="gender" value="Female" size="10">Female</td>
+	</tr>
+
+	 <tr>
+		<td>Languages known</td>
+		<td><input type="radio" name="language" value="engilsh" size="10">english
+		<input type="radio" name="language" value="not english" size="10">not english</td>
+	</tr>
+
+	
+	
+	
+	</tr>
+	<tr>
+		<td>other details</td>
+		<td><input type="text" name="other details" id="other details" size="30"></td>
+	</tr>
+
+	
+
+	
+	<tr>
+	      <td><input type="reset"></td>
+		<td colspan="2"><input type="submit" value="Submit Form" /></td>
+	</tr>
+</table>
+</form>
+</body>
